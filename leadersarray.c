@@ -12,7 +12,7 @@ int main()
         scanf("%d ", &arr[i]);
     }
     int max = arr[n - 1];
-    printf("leaders in array:%d ", max);
+    printf("leaders in array:5%d ", max);
     for (i = n - 2; i >= 0; i--)
     {
         if (arr[i] > max)

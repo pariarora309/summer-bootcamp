@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
 int main()
 {
     char str[100], newstr[100];
     int n, i;
-    scanf("%99s", str);
+    scanf("%s", str);
     scanf("%d", &n);
     char d;
     scanf(" %c", &d);

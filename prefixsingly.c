@@ -16,7 +16,7 @@ void createnode()
     ptr->next = NULL;
     if (head == NULL)
     {
-        head = temp = ptr;
+        head = ptr;
     }
     else
     {
